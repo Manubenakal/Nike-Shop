@@ -124,6 +124,22 @@ export const reviews = [
     feedback:
       'As someone with foot issues, finding the right athletic shoes was a struggle until I discovered Nike.',
   },
+  {
+    imgURL:
+      'https://media.licdn.com/dms/image/C5603AQHKmxXrON9hlw/profile-displayphoto-shrink_800_800/0/1664087736379?e=1712188800&v=beta&t=8jJm8IG-9oK_IBXqKWtqVZFLfDB8DYh9zfgvz6v2L_A',
+    customerName: 'Prajwal P',
+    rating: 4.0,
+    feedback:
+      'Nike commitment to innovation shines through in their shoes. The incorporation of cutting-edge technologies like React and Flyknit provides unmatched support and comfort.',
+  },
+  {
+    imgURL:
+      'https://media.licdn.com/dms/image/D5603AQGs96htszlkrw/profile-displayphoto-shrink_800_800/0/1694760434094?e=1712188800&v=beta&t=cGlPkcACisjjyA0MrCezjsQz_MuDwydZM1qSvOHDki8',
+    customerName: 'Krithika N',
+    rating: 4.0,
+    feedback:
+      'Nike shoes are not just about performance; they are a style statement. The sleek designs and iconic swoosh make a bold fashion statement. And the best part? They dont compromise on comfort.',
+  },
 ];
 
 export const footerLinks = [
