@@ -93,18 +93,36 @@ export const services = [
 
 export const reviews = [
   {
-    imgURL: customer1,
-    customerName: 'Morich Brown',
+    imgURL:
+      'https://media.licdn.com/dms/image/D5603AQGK1JBTrmVkjw/profile-displayphoto-shrink_800_800/0/1705242665002?e=1712188800&v=beta&t=Laf-TChqtwFPho6XGXx8DT_1Scb4dQqen3kaektTP9I',
+    customerName: 'Nanda Kumar B M',
     rating: 4.5,
     feedback:
       'The attention to detail and the quality of the product exceeded my expectations. Highly recommended!',
   },
   {
-    imgURL: customer2,
-    customerName: 'Lota Mongeskar',
-    rating: 4.5,
+    imgURL:
+      'https://media.licdn.com/dms/image/D5603AQG-lzalfHtpEg/profile-displayphoto-shrink_800_800/0/1666196938994?e=1712188800&v=beta&t=ErE0igONe7zA1oWwiCPEInoT00-USUt1mTJ1ZNBvZSw',
+    customerName: 'Pavan Gowda K S',
+    rating: 5.0,
     feedback:
       "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
+  },
+  {
+    imgURL:
+      'https://media.licdn.com/dms/image/D5603AQHQXM5XlUqjTg/profile-displayphoto-shrink_800_800/0/1705721021390?e=1712188800&v=beta&t=5c1H2jsjM5MDA2yvOvpoElLcpBh04Ei0hd1lxsPmk5U',
+    customerName: 'Manu M Benakal',
+    rating: 4.5,
+    feedback:
+      "Nike shoes are not just about performance they're a fashion statement too! I love how effortlessly stylish.",
+  },
+  {
+    imgURL:
+      'https://media.licdn.com/dms/image/D5603AQFLOnjH0nb7Ew/profile-displayphoto-shrink_800_800/0/1693127627041?e=1712188800&v=beta&t=U-bAljWWQaxwJeb_DVSr8Nd0OaZF4MfnKZfEffsMtZM',
+    customerName: 'Puneeth N',
+    rating: 4.0,
+    feedback:
+      'As someone with foot issues, finding the right athletic shoes was a struggle until I discovered Nike.',
   },
 ];
 
@@ -134,7 +152,7 @@ export const footerLinks = [
     title: 'Get in touch',
     links: [
       { name: 'customer@nike.com', link: 'mailto:customer@nike.com' },
-      { name: '+92554862354', link: 'tel:+92554862354' },
+      { name: '+91 8055', link: 'tel:+918055' },
     ],
   },
 ];
