@@ -2,8 +2,11 @@ import Button from '../components/Button';
 import { arrowRight } from '../assets/icons';
 import { shoes, statistics } from '../constants';
 import { bigShoe1 } from '../assets/images';
-import Shoecard from '../components/Shoecard';
+// import Shoecard from '../components/Shoecard';
+import ShoeCard from '../components/Shoecard';
+import { useState } from 'react';
 const Hero = () => {
+  const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
   return (
     <section
       id='home'
@@ -21,7 +24,7 @@ const Hero = () => {
           <span className='text-red-500 inline-block mt-3 mr-2'>Nike </span>
           Shoes
         </h1>
-        <p className='font-montserrat text-slate-gray text-lg mt-6 mb-14 leading-8 sm:max-w-sm'>
+        <p className='font-montserrat text-gray-500 text-lg mt-6 mb-14 leading-8 sm:max-w-sm'>
           Discover stylish Nike arrivals, quality comfort and innovation for
           your active life
         </p>
@@ -30,7 +33,7 @@ const Hero = () => {
           {statistics.map((stat, index) => (
             <div key={index}>
               <p className='text-4xl font-palanquin font-bold'>{stat.value}</p>
-              <p className='leading-7 font-montserrat text-slate-gray'>
+              <p className='leading-7 font-montserrat text-gray-500'>
                 {stat.label}
               </p>
             </div>
@@ -39,19 +42,25 @@ const Hero = () => {
       </div>
       <div className='relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center'>
         <img
-          src={bigShoe1}
+          src={bigShoeImg}
           alt='shoe collection'
           width={610}
           height={500}
           className='relative object-contain z-10'
         ></img>
-      </div>
-      <div>
-        {shoes.map((shoe) => {
-          <div key={shoe}>
-            <Shoecard />
-          </div>;
-        })}
+
+        <div className='flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6'>
+          {shoes.map((image, index) => (
+            <div key={index}>
+              <ShoeCard
+                index={index}
+                imgURL={image}
+                changeBigShoeImage={(shoe) => setBigShoeImg(shoe)}
+                bigShoeImg={bigShoeImg}
+              />
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );
