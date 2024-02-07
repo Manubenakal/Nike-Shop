@@ -95,7 +95,7 @@ export const reviews = [
   {
     imgURL:
       'https://media.licdn.com/dms/image/D5603AQGK1JBTrmVkjw/profile-displayphoto-shrink_800_800/0/1705242665002?e=1712188800&v=beta&t=Laf-TChqtwFPho6XGXx8DT_1Scb4dQqen3kaektTP9I',
-    customerName: 'Nanda Kumar B M',
+    customerName: 'Christian Bale',
     rating: 4.5,
     feedback:
       'The attention to detail and the quality of the product exceeded my expectations. Highly recommended!',
@@ -122,7 +122,7 @@ export const reviews = [
     customerName: 'Puneeth N',
     rating: 4.0,
     feedback:
-      'As someone with foot issues, finding the right athletic shoes was a struggle until I discovered Nike.',
+      'Wearing Nike Air Jordans is an experience like no other. The attention to detail, the comfort, and the iconic style make them stand out in a crowded sneaker market.',
   },
   {
     imgURL:
