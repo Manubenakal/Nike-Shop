@@ -134,8 +134,8 @@ export const reviews = [
   },
   {
     imgURL:
-      'https://media.licdn.com/dms/image/D5603AQGs96htszlkrw/profile-displayphoto-shrink_800_800/0/1694760434094?e=1712188800&v=beta&t=cGlPkcACisjjyA0MrCezjsQz_MuDwydZM1qSvOHDki8',
-    customerName: 'Krithika N',
+      'https://media.licdn.com/dms/image/D5603AQHH4hIe_HB2LQ/profile-displayphoto-shrink_800_800/0/1694428871900?e=1718841600&v=beta&t=cxnGo6QUKGxm23ntGcOkTjQDjeRUXyIV_Tz3QDNUtAU',
+    customerName: 'Sthuti J',
     rating: 4.0,
     feedback:
       'Nike shoes are not just about performance; they are a style statement. The sleek designs and iconic swoosh make a bold fashion statement. And the best part? They dont compromise on comfort.',
